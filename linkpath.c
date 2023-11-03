@@ -1,11 +1,10 @@
 #include "shell.h"
-
-
 /**
  * _getenv - gets the value of the global variable
  * @name: name of the global variable
  * Return: string of value
  */
+
 char *_getenv(const char *name)
 {
 	int i, j;
@@ -34,8 +33,6 @@ char *_getenv(const char *name)
 	}
 	return (0);
 }
-
-
 /**
  * add_node_end - adds a new node at the end of a list_t list
  * @head: pointer to pointer to our linked list
