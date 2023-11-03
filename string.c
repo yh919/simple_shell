@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * _strdup - returns a pointer to a newly allocated space in memory, which
  * contains a copy of the string given as a parameter
@@ -31,7 +30,6 @@ char *_strdup(char *str)
 	new[l] = str[l];
 	return (new);
 }
-
 /**
  * concat_all - concats 3 strings in a newly allocated memory
  * @name: first string
@@ -39,6 +37,7 @@ char *_strdup(char *str)
  * @value: Third string
  * Return: pointer to the new string
  */
+
 char *concat_all(char *name, char *sep, char *value)
 {
 	char *result;
@@ -74,6 +73,7 @@ char *concat_all(char *name, char *sep, char *value)
  * @s: pointer to the string
  * Return: the length of string
  */
+
 int _strlen(char *s)
 {
 	int i = 0;
